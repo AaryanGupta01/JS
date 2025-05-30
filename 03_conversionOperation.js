@@ -21,3 +21,16 @@ let someNumber = 33
 let stringNumber = String(someNumber)
 console.log(stringNumber);
 console.log(typeof stringNumber);
+
+let str1 = "Hello"
+let str2 = "Aaryan"
+let str3 = str1 + str2
+console.log(str3);
+
+console.log("1"+2);
+console.log(1+"2");
+console.log("1"+2+2);
+console.log(1+2+"2");
+
+console.log(+true); //this gives the value of true in number
+console.log(+""); // this gives the value of empty string in number
