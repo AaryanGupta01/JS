@@ -51,3 +51,33 @@ Number => "number"
 String => "string"
 Object => "object"
 */
+
+// --------------------------------------------------------------------------------------------------------------
+
+// Stack (Primitve datatypes use stack memory) and Heap (Non Primitve datatypes use heap memory)
+// When Stack memory is used a copy of the variable is returned
+// When Heap memory is used reference (original value) is returned
+
+//Stack Example
+let myYoutubeName = "AaryanGupta.com"
+ 
+let anotherName = myYoutubeName //here a copy of myYoutubeName is given to anotherName not the original value
+anotherName = "Raipur"  // so after changing the value of anotherName no change is done to myYoutubeName
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+//Heap Example
+let userOne = {
+    email:"ag@gmail.com",
+    upi:"ag@ybl"
+}
+
+let userTwo = userOne // here reference to the main userOne object is given to userTwo 
+
+userTwo.email = "aaryan@gmail.com" //so changing userTwo email also changes userOne email
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
