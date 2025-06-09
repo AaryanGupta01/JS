@@ -60,7 +60,7 @@ console.log(flat_array);
 console.log(Array.from("Aaryan"));
 
 console.log(Array.from({name: 'Aaryan'})); //cant convert directly an object to array
-//Making an array "OF" variables
+//Making an array "Of" variables
 let score1 = 100
 let score2 = 200
 let score3 = 300
